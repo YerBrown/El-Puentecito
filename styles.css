@@ -1,0 +1,79 @@
+.rosarivo-regular {
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rosarivo-regular-italic {
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(245, 242, 227);
+}
+
+header {
+    padding: 20px;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+article {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0px;
+}
+
+article img {
+    width: 50%;
+    border: 5px solid black;
+    margin: 10px 10px;
+}
+
+footer {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+h2,
+h3 {
+    margin: 10px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0;
+}
+.newspaper-name {
+    font-family: "Rosarivo", cursive;
+}
+
+.img-right {
+    float: right;
+}
+
+.img-left {
+    float: left;
+}
